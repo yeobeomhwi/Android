@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         getSupportActionBar().setDisplayShowHomeEnabled(true);
-        getSupportActionBar().setIcon(R.drawable.css3);
+        getSupportActionBar().setIcon(R.drawable.css);
         button1 = (Button) findViewById(R.id.button1);
 
         button1.setOnClickListener(new View.OnClickListener() {
