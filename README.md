@@ -47,3 +47,12 @@
  5.0으로 나누면 오류메시지 출력
  </p>
 </details>
+
+<details>
+  <summary> Project4_4 =  Project4_2 수정 </summary>
+ <p>
+ 1.체크박스를 스위치로<br>
+ 2.초기화와 종료 버튼 추가.<br>
+ </p>
+</details>
+
