@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/Text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="선택을 시작하겠습니까?"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="114dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="29dp"
+        android:layout_marginBottom="35dp"
+        android:text="시작함"
+        app:layout_constraintBottom_toBottomOf="@+id/Text2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/Text1" />
+
+    <TextView
+        android:id="@+id/Text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="72dp"
+        android:layout_marginEnd="6dp"
+        android:text="좋아하는 과일은?"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="@+id/switch1"
+        app:layout_constraintTop_toBottomOf="@+id/Text1" />
+
+    <ImageView
+        android:id="@+id/ImgPet"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="12dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/button1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Rgroup1"
+        app:srcCompat="@drawable/lem" />
+
+    <RadioGroup
+        android:id="@+id/Rgroup1"
+        android:layout_width="83dp"
+        android:layout_height="193dp"
+        android:layout_marginTop="25dp"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Text2">
+
+        <RadioButton
+            android:id="@+id/RdoBerry"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="딸기" />
+
+        <RadioButton
+            android:id="@+id/RdoLem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="레몬" />
+
+        <RadioButton
+            android:id="@+id/RdoLime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="라임" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="92dp"
+        android:layout_marginBottom="54dp"
+        android:text="종료"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="94dp"
+        android:text="처음으로"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ImgPet" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
