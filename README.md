@@ -69,8 +69,8 @@
   <summary> Project5_2 = 테이블레이아웃 계산기 앱 만들기 </summary>
  <p>
 • TableLayout 1개와 TableRow 9개로 구성<br>
-• 에디트텍스트 2개, 숫자 버튼 10개, 연산 버튼 4개, 텍스트뷰 1개 생성<br><br>
-• 연산 버튼 위젯에는 layout_margin을 적절히 지정<br><br>
+• 에디트텍스트 2개, 숫자 버튼 10개, 연산 버튼 4개, 텍스트뷰 1개 생성<br>
+• 연산 버튼 위젯에는 layout_margin을 적절히 지정<br>
 • 결과를 보여줄 TextView는 색상을 빨간색, 글자 크기는 20dp<br>
 • 각 위젯의 id는 위에서부터 Edit1, Edit2, BtnNum0~9, BtnAdd, BtnSub, BtnMul, BtnDiv, TextResult <br>
  </p>
