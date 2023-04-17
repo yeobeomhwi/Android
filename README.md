@@ -56,3 +56,37 @@
  </p>
 </details>
 
+<details>
+  <summary> Project5_1 = XML 파일없이 화면코딩하기 </summary>
+ <p>
+ 1.activity_main.xml 삭제<br>
+ 2.버튼 만들기.<br>
+ 3.버튼을 클릭했을 때 토스트 메시지를 작성<br>
+ </p>
+</details>
+
+<details>
+  <summary> Project5_2 = 테이블레이아웃 계산기 앱 만들기 </summary>
+ <p>
+• TableLayout 1개와 TableRow 9개로 구성<br>
+• 에디트텍스트 2개, 숫자 버튼 10개, 연산 버튼 4개, 텍스트뷰 1개 생성<br>
+• 연산 버튼 위젯에는 layout_margin을 적절히 지정<br>
+• 결과를 보여줄 TextView는 색상을 빨간색, 글자 크기는 20dp<br>
+• 각 위젯의 id는 위에서부터 Edit1, Edit2, BtnNum0~9, BtnAdd, BtnSub, BtnMul, BtnDiv, TextResult <br>
+ </p>
+</details>
+
+<details>
+  <summary> Project5_3 =  리니어 레이아웃 활용 </summary>
+ <p>
+ 1.리니어 레이아웃 활용<br>
+ </p>
+</details>
+
+<details>
+  <summary> Project5_4 =  Project5_2를 그리드 레이아웃으로 변경 </summary>
+ <p>
+ 1.그리드 레이아웃 활용
+ </p>
+</details>
+
